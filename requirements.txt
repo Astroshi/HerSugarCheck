@@ -1,8 +1,8 @@
-pickle  
-numpy  
-streamlit  
-fpdf  
-streamlit_lottie  
-json  
-datetime  
-plotly.graph_objs 
+streamlit
+fpdf
+streamlit-lottie
+plotly
+scikit-learn
+pandas
+numpy
+joblib
