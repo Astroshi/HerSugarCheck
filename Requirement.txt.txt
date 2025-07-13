@@ -1,12 +1,8 @@
-Pickle
-Version: 3.13.5
-
-NumPy
-Version: 2.2.5
-
-Scikit-learn
-Version: 1.6.1
-
-Streamlit
-Version: 1.46.1
-
+pickle  
+numpy  
+streamlit  
+fpdf  
+streamlit_lottie  
+json  
+datetime  
+plotly.graph_objs 
