@@ -8,6 +8,7 @@ import pickle
 import numpy as np
 import streamlit as st
 from fpdf import FPDF
+
 from streamlit_lottie import st_lottie
 import json
 from datetime import datetime
@@ -19,12 +20,12 @@ def load_lottiefile(filepath):
         return json.load(f)
 
 # Lottie animation path
-lottie_animation = load_lottiefile(r"D:\Deployment\Lottie\wdy.json")
+lottie_animation = load_lottiefile("Lottie\wdy.json")
 
 # Load model and scaler
 try:
-    loaded_model = pickle.load(open(r"D:\Deployment\trained_model.sav", 'rb'))
-    scaler = pickle.load(open(r"D:\Deployment\scaler.sav", 'rb'))
+    loaded_model = pickle.load(open("trained_model.sav", 'rb'))
+    scaler = pickle.load(open("scaler.sav", 'rb'))
 except FileNotFoundError:
     st.error("Model or scaler not found.")
     st.stop()
