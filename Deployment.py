@@ -20,7 +20,7 @@ def load_lottiefile(filepath):
         return json.load(f)
 
 # Lottie animation path
-lottie_animation = load_lottiefile("Lottie\wdy.json")
+lottie_animation = load_lottiefile(r"Lottie\wdy.json")
 
 # Load model and scaler
 try:
